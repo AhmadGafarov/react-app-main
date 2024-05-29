@@ -1,0 +1,61 @@
+
+.saved-page {
+    height: 100%;
+    /* background: black; */
+}
+
+.saved-header {
+    /* background-color: black; */
+    background-color: aliceblue;
+    /* color: #f5c518; */
+    color: #121212;
+    width: 100%;
+    font-size: 3.5vw;
+}
+
+.no-lists {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.saved-item {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    padding: 4px 0;
+    background-color: rgb(227, 228, 240);
+    border-radius: 5px;
+}
+
+.saved-card {
+    background-color: rgb(209, 231, 249);
+    width: 34vw;
+    margin: 5px auto;
+    border: 1px black solid;
+}
+
+.saved-card button {
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 992px) {
+    .saved-header {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px) {
+    .saved-card {
+        width: 54vw;
+    }
+
+    .saved-header {
+        font-size: 7vw;
+    }
+}

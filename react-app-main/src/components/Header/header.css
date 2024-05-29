@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Reddit+Mono:wght@200..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/impact');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.app-header {
+    background: #121212;
+    padding: 20px calc(50% - 500px) 10px;
+}
+
+.app-logo {
+    /* font-family: 'Luckiest Guy', cursive; */
+    font-family: "Anton", sans-serif;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    /* margin-left: 40px; */
+    background: #f5c518;
+}
+
+.app-header a {
+    text-decoration: none;
+}
